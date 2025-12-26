@@ -29,3 +29,18 @@ This project is an API automation framework built using Rest Assured, TestNG, Ja
 
 ## Setup
 1. Clone the repository:
+2. Navigate to the project:
+3. Install dependencies:
+Run all tests using: mvn test
+
+## Features Implemented
+- Create User API (POST)
+- Get User API (GET)
+- Data-driven testing using Excel
+- Reusable request specification
+- Clean separation of services and tests
+
+
+
+
+
