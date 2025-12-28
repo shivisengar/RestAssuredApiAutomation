@@ -36,7 +36,7 @@ public class JsonTest {
         String userId = postRes.jsonPath().getString("id");
         Assert.assertNotNull(userId);
 
-        // 6. GET request
+        // 6. GET requ
         Response getRes = UserServices.getUser("1");
         Assert.assertEquals(getRes.statusCode(), 200);
     }
